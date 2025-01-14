@@ -1,0 +1,3 @@
+This file can contain at most 10 words
+Each word can have up to 32 characters
+This input file has 7 lines.
