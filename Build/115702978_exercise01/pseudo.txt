@@ -1,0 +1,42 @@
+typedef struct
+	variable board[3][3];
+name;
+
+function ClearBoard(pointer to ADT)
+	for all row indexes
+		for all column indexes
+			initialize to default values
+			
+function PutMark(pointer to ADT, variable K, I, J)
+	set board array index I, J to variable K
+	
+function GetWinner(pointer to ADT)
+	check all 8 winning conditions
+		if condition is true
+			return winning value
+		else
+			return non winning value
+			
+function DisplayBoard(pointer to ADT)
+	for all row indexes
+		for all column indexes
+			display value at row, column
+			
+function main
+	define instance of the adt
+	clear the board
+	
+	while the winning condition is not met
+		read in i, j, for player x
+		Putmark for player x
+		display the board
+		check for winning condition
+		
+		read in i, j, for player o
+		putmark for player o
+		display the board
+		check for winning condition
+		
+		if winning condition is met
+			print winning player
+			exit game
